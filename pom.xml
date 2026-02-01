@@ -8,8 +8,9 @@
 		<version>3.4.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.jcl.example</groupId>
-	<artifactId>example</artifactId>
+	<artifactId>example</artifactId> <!-- Service name -->
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<java.version>17</java.version>
