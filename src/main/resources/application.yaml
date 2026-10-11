@@ -1,3 +1,12 @@
 spring:
   application:
     name: example
+  datasource:
+    url: jdbc:postgresql://localhost:5432/example_db
+    username: example
+    password: example
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
